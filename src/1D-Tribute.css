@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+
+#bg-image{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.tribute{
+  font-family: carattere;
+  font-size: 40px;
+  line-height: 100%;
+  text-align: center;
+  margin-top: 80px;
+  line-height: 38px;
+}
+
+.band-name{
+  font-family: coldiac;
+  font-weight: bold;
+  font-size: 39px;
+}
+
+#introduction{
+  display: flex;
+  max-width: 90%;
+  margin-left: 35px;
+  margin: 100px auto;
+}
+
+#quotes{
+  font-family: inter;
+  font-size: 20px;
+  padding-top: 20px;
+  width: 45%;
+
+}
+
+#one-direction-cover{
+  object-fit: cover;
+  object-position: 55% 30%;
+  margin-left: 20%;
+  padding-top: 30px;
+  width: 550px;
+  max-height: 450px;
+}
