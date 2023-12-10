@@ -1,19 +1,50 @@
 body{
-    margin: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #bg-image{
   object-fit: cover;
   height: 100%;
-  width: 100%;
+  width: 100vw;
+}
+
+#nav-bar {
+  background-color: rgba(35, 35, 35, 255);
+  height: 70px;
+  width: 100vw;
+  align-items: center;
+  margin-top: -3px;
+ 
+} 
+
+#nav-bar-items {
+  list-style: none;
+  display: flex;
+  justify-content:space-evenly;
+  margin: 0;
+} 
+
+.items{
+  font-size: 1.6vw;
+  margin-left: 10px;
+  padding:23px 23px;
+  color: white;
+  font-weight: bold;
+  font-family: DM Sans;
+} 
+
+
+#logo:hover , .items:hover{
+  background-color: rgba(50,50,50,150);
 }
 
 .tribute{
   font-family: carattere;
+  text-align: center;
   font-size: 40px;
   line-height: 100%;
-  text-align: center;
-  margin-top: 80px;
+  margin-top: 70px;
   line-height: 38px;
 }
 
@@ -25,24 +56,39 @@ body{
 
 #introduction{
   display: flex;
-  max-width: 90%;
-  margin-left: 35px;
+  max-width: 80%;
   margin: 100px auto;
+  overflow: hidden;
+  margin-bottom: 0;
 }
 
-#quotes{
+#about{
   font-family: inter;
-  font-size: 20px;
-  padding-top: 20px;
-  width: 45%;
+  line-height: 160%; /* 22.4px */
+  font-size: 14px;
+  padding-top: 40px;
+  width: 535px;
+  text-align: left;
+}
 
+figcaption{
+  font-family: inter;
+  font-size: 1.1rem;
+  padding-top: 20px;
+  width: 500px;
+  padding-left: 233px;
+}
+
+#quote-band-name{
+  margin-left: 250px;
 }
 
 #one-direction-cover{
   object-fit: cover;
-  object-position: 55% 30%;
-  margin-left: 20%;
   padding-top: 30px;
-  width: 550px;
-  max-height: 450px;
+  width: 390px;
+  max-height: 390px;
+  padding-left: 230px;
+  padding-right: 0;
+  margin-right: 0;
 }
