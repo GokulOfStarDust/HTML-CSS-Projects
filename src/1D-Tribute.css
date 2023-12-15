@@ -1,0 +1,132 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+
+body{
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1600px;
+  align-items: center;
+}
+
+#bg-image{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  max-width: 1600px;
+}
+
+#nav-bar {
+  background-color: rgba(23,23,23,255);
+  height:calc(41px + 1vw);
+  width: 100%;
+  align-items: center;
+  margin-top: -3px;
+ 
+} 
+
+#nav-bar-items {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;  
+  padding-left: 0;
+
+} 
+
+.items{
+  font-size: calc(5px + 0.8vw);
+  padding: 17px 12px;
+  color: white;
+  font-weight: bold;
+  font-family: DM Sans;
+} 
+
+a{
+  text-decoration: none;
+  padding: 10px 12px;
+  color: aliceblue;
+}
+
+#logo:hover , .items:hover{
+  background-color: rgba(50,50,50,150);
+}
+
+
+.tribute{
+  font-family: carattere;
+  text-align: center;
+  font-size: calc(25px + 1vw);
+  line-height: 100%;
+  margin-top: 60px;
+  line-height: calc(22px + 0.9vw);
+}
+
+.band-name{
+  font-family: coldiac;
+  font-weight: bold;
+  font-size: calc(23px + 1vw);
+}
+
+#main{
+  display: block;
+  max-width: 80%;
+  margin: 100px auto;
+  margin-bottom: 0;
+}
+
+figure{
+  margin: 0 auto;
+}
+
+figcaption{
+  font-family: inter;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-left: 3px;
+  max-width: 260px;
+}
+
+.cover-image-div{
+  display: flex; 
+  justify-content: center; 
+  flex-direction: column;
+  margin-top: -35px;
+}
+
+#one-direction-cover{
+  object-fit: cover;
+  width: 260px;
+  max-height: 390px;
+}
+
+.about-div{
+  display: flex;  
+  align-items: center;
+  flex-direction: column;
+}
+
+#about{
+  font-family: inter;
+  line-height: 160%; 
+  font-size: 14px;
+  padding-top: 20px;
+  max-width: 535px;
+  text-align: justify;
+} 
+
+#about-head{
+  font-family: inter; 
+  padding-top: 60px; 
+  height: 0;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: aliceblue;
+  padding: 12px 12px;
+}
