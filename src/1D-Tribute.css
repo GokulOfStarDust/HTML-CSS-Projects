@@ -20,6 +20,9 @@ body{
 }
 
 #nav-bar {
+  position: sticky;
+  z-index: 999;
+  top: 0;
   background-color: rgba(23,23,23,255);
   height:calc(41px + 1vw);
   width: 100%;
