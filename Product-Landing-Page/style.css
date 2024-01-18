@@ -5,13 +5,19 @@ body{
     font-family: 'poppins',sans-serif;;
 }
 
+#background-image{
+    position: absolute; 
+    top:0;
+    max-width: 424px;
+    z-index: -1;
+}
+
 nav{
     display: flex;
     background-color: rgba(0, 0, 0, 0);
     align-items:center;
     justify-content: space-between;
     position: fixed;
-    z-index: 999;
     top:0;
     list-style-type: none;
     min-width: 360px;
@@ -51,23 +57,67 @@ nav > ul > li{
     padding: 0 10px 0 10px;
 }
 
-#background-image{
-    position: absolute; 
-    top:0;
-    max-width: 424px;
-    z-index: -999;
-}
 
 #Home{
     display: flex;
+    justify-content:space-between;
+    margin: 0 50px;
 }
 
-#intro{
-    z-index: 999;
+#catchy-text{
     color: white;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    width: 200px;
+    margin-top: 70px;
+    line-height: 24px;
+}
+
+#catchy-text > span{
+    color: rgba(0, 0, 0, 0.037);
+    -webkit-text-stroke-width: 0.13px;
+    -webkit-text-stroke-color: white;
+    
+}
+
+#catchy-text-subtitle{
+    font-size:9px;
+    position: absolute;
+    width:110px;
+    margin-top: 126px;
+    font-weight: 200;
+    font-style: italic;
+    line-height: 14.5px;
+}
+
+#buy-now{
+    position: absolute;
+    color: rgba(217, 217, 217, 0.83);
+    background-color: rgba(17,17,17,254);
+    border: 0.4px solid rgba(217, 217, 217, 0.83);
+    border-radius: 10px;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 5px;
+    height: 14px;
+    top: 166.5px;
+    padding: 0 10px 1px 10px;
+}
+
+#buy-now:hover{
+    cursor: pointer;
+    background-color: rgb(76, 76, 76);
+}
+
+#buy-now:active{
+    cursor: pointer;
+    background-color: white;
+    color: black;
 }
 
 #headphone{
-    z-index: 999;
     width: 250px;
+    float: right;
+    margin-left: 120px;
 }
