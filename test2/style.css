@@ -114,7 +114,7 @@ a:hover{
 
 #headphone{
     width: 200px;
-    margin: 7px 0 0 -16px;
+    margin: 7px 0 0 -5px;
 }
 
 #buy-now{
@@ -128,7 +128,7 @@ a:hover{
     width: 200px;
     height: 20px;
     padding: 5px;
-    margin: 15px 0 0 -19px;
+    margin: 15px 0 0 -5px;
     letter-spacing: 2px;
 }
 
