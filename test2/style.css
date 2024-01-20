@@ -158,6 +158,22 @@ a:hover{
     row-gap: 20px ;
 }
 
+#products > h1{
+    font-size: 27px;
+}
+
+
+#products > h1 > hr{
+    margin: 3px auto;
+    width: 90px;
+}
+
+#about > h1 > hr{
+    margin: 2px auto;
+    width: 40px;
+}
+
+
 #headphone-1, #headphone-2, #headphone-3{
     grid-column: 2/3;
     border-radius: 8px;
@@ -247,7 +263,7 @@ a:hover{
 h1{
     font-family: 'Grape Nuts', cursive;
     grid-column: 2/3;
-    font-size: 40px;
+    font-size: 32px;
     font-weight:bolder;
 }
 
