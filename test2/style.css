@@ -151,7 +151,7 @@ a:hover{
 
 
 #products{
-    margin-top: 65px;
+    margin-top: 85px;
     display: grid;
     grid-template-columns: 1fr 80% 1fr;
     justify-items: center;
@@ -180,17 +180,13 @@ a:hover{
     box-shadow: 0 0 10px rgba(51, 51, 51, 0.475);  
     background-color: rgba(17,17,17,0.5); 
     padding: 20px;
-    overflow: scroll;
 }
 
  #hp1, #hp2, #hp3{
     object-fit: cover;
     width: 250px;
     height: 247px;
- }
-
- #hp3:hover{
-    transform: scale(1.5);
+    transition: transform 0.3s ease-in-out;
  }
 
  .pdt-name{
@@ -287,4 +283,79 @@ h1{
     text-align: justify;
     grid-column: 2/3;
     font-weight: 100;
+}
+
+#contact{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 90% 1fr;
+    justify-items: center;
+}
+
+#contact > h1 > hr{
+    margin: 2px auto;
+    width: 60px;
+}
+
+#contact > h1{
+    margin-bottom: -20px;
+}
+
+#greeting{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    grid-column: 2/3;
+    font-weight: 100;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+form{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+label{
+    font-size: 15px;
+    margin-left: 6px;
+}
+
+input{
+    width: 250px;
+    height: 12px;
+    margin-top:3px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+textarea{
+    width: 250px;
+    height: 60px;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#submit{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.112);
+    border: none;
+    box-shadow: 0 0 1px white;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 17px;
+    width: 200px;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom:20px;
+}
+
+#video-section{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

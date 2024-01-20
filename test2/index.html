@@ -21,6 +21,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;300;400&display=swap" rel="stylesheet">
     <title>Headphones</title>
 </head>
 <body>
@@ -33,7 +36,7 @@
         <li><a href="#about">About</a></li>
         <li><a href="#products">Our Product</a></li>
         <li><a href="">Heritage</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
         <li><a href="">Stereo</a></li>
       </ul>
       <img src="iconmonstr-shopping-cart-23-240 1.png" alt="shopping icon" id="cart">
@@ -45,7 +48,7 @@
     <img src="Headphone-Transparent-File 2.png" alt="black headphone" id="headphone">
     <button id="buy-now">BUY NOW</button>
   </section>
-  <section role="region" aria-labelledby="pdt-page" id="products">
+  <section role="region" aria-labelledby="#pdt-page" id="products">
     <h1 id="pdt-page">Our Products<hr>
     </h1>
     <div id="headphone-1">
@@ -107,12 +110,36 @@
     </div>
 
   </section>
-  <section role="region" id="about" aria-labelledby="about-company">
+  <section role="region" id="about" aria-labelledby="#about-company">
     <h1 id="about-company">About <hr></h1>
     <img src="logo-png.png" alt="company logo" id="about-logo">
     <p id="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Et ultrices neque ornare aenean euismod elementum. Quam id leo in vitae turpis. Mattis molestie a iaculis at erat pellentesque. Enim praesent elementum facilisis leo vel fringilla est ullamcorper eget. In nulla posuere sollicitudin aliquam ultrices sagittis orci. Vel risus commodo viverra maecenas accumsan lacus vel facilisis volutpat. Tristique senectus et netus et. Egestas egestas fringilla phasellus faucibus. Rhoncus mattis rhoncus urna neque viverra justo. Dictum varius duis at consectetur lorem donec massa sapien. Et tortor at risus viverra adipiscing. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Ut sem nulla pharetra diam. Diam vulputate ut pharetra sit amet aliquam. Feugiat in ante metus dictum at tempor commodo.</p>
   </section>
- 
- 
+  <section role="region" aria-labelledby="contact-head" id="contact">
+    <h1 id="contact-head">Contact <hr></h1>
+    <p id="greeting">We'd Love to Hear From You!</p>
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+      <label for="name" id="name-label">
+        Name : <br><input id="name" type="text" name="user-name" placeholder="Enter Your Name" required>
+      </label>
+      <label for="email" name="email" id="email-label">
+       Email : <br><input type="email" id="email" name="mail-id" placeholder="Enter Your Email" required>
+      </label>
+      <label for="query" id="query-label" >
+        Feedback : <br><textarea name="user-queries" id="query" placeholder="Feedbacks?"></textarea>
+      </label>
+      <label for="submit" id="submit-label">
+        <input type="submit" id="submit" value="SUBMIT"></button>
+      </label>
+    </form>
+  </section>
+  <section id="video-section">
+  <iframe id="video"src="https://www.youtube.com/embed/75P0QGi3RO0?si=u3t6IM9AwYuB-pZr" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+  </iframe>
+  <p>COMRADES OF THE SOVIET UNION!!!!!</p>
+</section>
 </body>
 </html>
