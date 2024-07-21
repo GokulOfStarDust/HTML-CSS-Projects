@@ -76,22 +76,22 @@ playerChoice.addEventListener('click', (eventDetails) => {
         resultDiv.innerText = "That's an TIE!";
     }
     else if(sumOfCards.player == 21){
-        resultDiv.innerText = "You -> WIN.";
+        resultDiv.innerText = "You WIN.";
     }
     else if(sumOfCards.dealer == 21){
-        resultDiv.innerText = "You -> LOST.";
+        resultDiv.innerText = "You LOST.";
     }
     else if((sumOfCards.player > sumOfCards.dealer) && (sumOfCards.player <= 21)){
-       resultDiv.innerText = "You -> WIN.";
+       resultDiv.innerText = "You WIN.";
     }
     else if((sumOfCards.dealer > sumOfCards.player) && (sumOfCards.dealer <= 21)){
-        resultDiv.innerText = "You -> LOST.";
+        resultDiv.innerText = "You LOST.";
     }
     else if(sumOfCards.player > 21){
-        resultDiv.innerText = "You -> LOST.";
+        resultDiv.innerText = "You LOST.";
     }
     else if(sumOfCards.player < 21){
-        resultDiv.innerText = "You -> WON.";
+        resultDiv.innerText = "You WON.";
     }
     else{
         console.log("UnImaginedElseCondition")
