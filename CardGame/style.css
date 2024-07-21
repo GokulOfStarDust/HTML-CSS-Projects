@@ -2,7 +2,7 @@ body{
     background: url('greenBg.jpg');
     background-size: cover;
     overflow: hidden;
-    margin-top: 40px;
+    margin-top: 5lvh;
 }
 
 @media (max-width: 440px){
@@ -50,6 +50,17 @@ body{
 
 .resultSpan{
     font-size: 100px;
+}
+
+.playAgain{
+    text-align: center;
+    margin-top: -50px;
+    font-size: 20px;
+    font-family: Inconsolata;
+}
+
+.playAgain:hover{
+    cursor: pointer;
 }
 
 h1{
