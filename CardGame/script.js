@@ -67,7 +67,7 @@ playerChoice.addEventListener('click', (eventDetails) => {
         blurDiv.classList.toggle("blur");
         const resultDiv = document.querySelector(".resultBoxDiv");
         resultDiv.classList.toggle("resultBox");
-    },1500)
+    },3000)
     
     document.querySelector(".textInsideResult").innerHTML = `Your Points : ${sumOfCards.player} <br> Dealer Points : ${sumOfCards.dealer}`;
     const resultDiv = document.querySelector('.resultSpan')
